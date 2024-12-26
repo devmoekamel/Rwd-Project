@@ -51,6 +51,7 @@ password.addEventListener("input", (event) => {
 
 loginform.addEventListener("submit", (event) => {
   event.preventDefault();
+  console.log(userData);
   if (userData.username && userData.password) {
     let user = CheckUser();
     console.log(user);

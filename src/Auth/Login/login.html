@@ -16,46 +16,33 @@
       <div
         class="row flex-wrap-reverse justify-content-center align-items-center gy-5"
       >
-        <div
-          class="col-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center"
-        >
+        <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center">
           <form
-            class="d-flex flex-column justify-content-center row-gap-4 w-100 p-0 p-md-5"
+            class="d-flex flex-column justify-content-center row-gap-4 w-100"
             id="login-form"
           >
-            <div class="mb-3">
-              <label
-                class="form-label text-capitalize text-primary"
-                for="username"
-                >Username</label
-              >
-              <input
-                type="text"
-                class="form-control shadow-none rounded-2 border-0 bg-body-tertiary py-1"
-                id="username"
-                name="username"
-              />
-              <span class="d-none" id="usernameSpan">Username is Required</span>
-            </div>
-
-            <div class="mb-3">
-              <label
-                class="form-label text-capitalize text-primary"
-                for="password"
-                >Password</label
-              >
-              <input
-                type="password"
-                class="form-control shadow-none rounded-2 border-0 bg-body-tertiary py-1"
-                id="password"
-                name="password"
-              />
-              <span class="d-none" id="passwordSpan">Password is required</span>
-            </div>
-
+            <label class="text-capitalize text-primary" for="text">
+              Username</label
+            >
+            <input
+              class="form-control shadow-none rounded-2 border-0 bg-body-tertiary py-1"
+              type="text"
+              id="username"
+              name="username"
+            />
+            <span class="d-none" id="usernameSpan">username is Required</span>
+            <label class="text-capitalize text-primary" for="password">
+              Password</label
+            >
+            <input
+              class="form-control shadow-none rounded-2 border-0 bg-body-tertiary py-1"
+              type="password"
+              id="password"
+              name="password"
+            />
+            <span class="d-none" id="passwordSpan">password is required</span>
             <button
-              type="submit"
-              class="btn btn-primary align-self-center px-3 py-2 rounded-2"
+              class="border-0 align-self-center px-5 py-2 rounded-2 bg-primary text-white"
             >
               Login
             </button>
@@ -63,11 +50,18 @@
         </div>
         <aside class="col-12 col-md-12 col-lg-6 text-center">
           <figure>
-            <img src="assets/login.png" alt="Login Image" class="img-fluid" />
+            <img
+              src="assets/login.png"
+              width="100%"
+              height="auto"
+              alt="Login Image"
+            />
           </figure>
         </aside>
       </div>
     </main>
+    <script src="script/login.js" type="module"></script>
+    <script src="/shared/functions.js" type="module"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
