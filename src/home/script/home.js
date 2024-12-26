@@ -109,7 +109,7 @@ let getAllPCategories = async () => {
   }
 };
 function displayCat(element) {
-  return `<h4  id="${element}" onclick='filterproducts(this)' class="col-12 col-md-4 col-lg-2 rounded-2 text-center p-1 shadow-sm text-secondary">${element}</h4>`;
+  return `<h4  id="${element}" onclick='filterproducts(this)' class="col-12 col-md-4 col-lg-2 rounded-2 text-center p-1 shadow-sm text-secondary ">${element}</h4>`;
 }
 var catList = document.getElementById("Category-list");
 

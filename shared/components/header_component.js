@@ -51,7 +51,7 @@ export let header_component = () => {
            : `<a class="nav-link" href="/src/Auth/register/register.html"><button class="btn btn-primary">Register</button></a>`
        }
     </div>
-
+      
   </div>
 </nav>
   `;
