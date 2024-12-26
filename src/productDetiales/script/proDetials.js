@@ -23,12 +23,12 @@ let getProductById = async () => {
 
 let productDetial = (product) => {
   return `
-  <div class="container mt-5">
-    <div class="row row-gap-5" id="product-details">
+  <div class="container my-5">
+    <div class="row align-items-center row-gap-4" id="product-details">
         <div class="image-container col-12 col-md-12 col-lg-6 text-center ">
-          <img  class="p-3 shadow-lg rounded-4" id="img" width="450" height  src="${product.image}" alt="" />
+          <img  class="p-3 shadow-lg rounded-4 img-fluid" id="img" width="300px" height="200px"  src="${product.image}" alt="" />
         </div>
-        <div class="detials-contianer  col-12 col-md-6 col-lg-6">
+        <div class="detials-contianer  col-12 col-md-12 col-lg-6 ">
           <div class="text-text-center">
             <h2 class="text-body-tertiary">Product Name : <span class="text-primary"> ${product.title} </span></h2>
             <h2 class="text-body-tertiary">Price : <span class="text-primary">${product.price}</span></h2>
