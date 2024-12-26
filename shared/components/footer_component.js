@@ -23,7 +23,7 @@ export let footer_component = () => {
                 fill="#312ECB"
               ></path>
             </svg>
-            <span > Ecomma</span>
+            <span class="text-black h4"> Ecomma</span>
           </a>
         </li>
       </ul>
