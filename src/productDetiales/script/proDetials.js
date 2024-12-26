@@ -25,7 +25,7 @@ let productDetial = (product) => {
   return `
   <div class="container mt-5">
     <div class="row row-gap-5" id="product-details">
-        <div class="image-container col-12 col-md-6 col-lg-6 text-center ">
+        <div class="image-container col-12 col-md-12 col-lg-6 text-center ">
           <img  class="p-3 shadow-lg rounded-4" id="img" width="450" height  src="${product.image}" alt="" />
         </div>
         <div class="detials-contianer  col-12 col-md-6 col-lg-6">
